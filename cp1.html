@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DWEC</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script type="text/javascript" src="cp1.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>DESARROLLO WEB ENTORNO CLIENTE</h2>
+    <h4>Gestión de Edificios</h4>
+  </header>
+  <article>
+    <fieldset>
+        <legend>Datos del Edificio</legend>
+        <legend>Calle</legend>
+        <input type="text" id="calle" name="calle" required></br>
+        <legend>Numero (numérico)</legend>
+        <input type="number" id="numero" name="numero" required></br>
+        <legend>CP (numérico)</legend>
+        <input type="number" id="cp" name="cp" required></br>
+        </br>
+        <button class="w3-button w3-black" onclick="guardarEdificio()">Guardar Edificio</button>
+        <button class="w3-button w3-black" id="plantasypuertas" onclick="agregarPlantasPuertas()" disabled>Añadir Plantas y Puertas</button>
+        <button class="w3-button w3-black" id="piso" onclick="agregarPiso()" disabled>Añadir Piso</button>
+        <button class="w3-button w3-black" id="info" onclick="mostrarInfo()" disabled>Mostrar Información</button>
+    </fieldset>
+    </br>
+    <fieldset>
+      <h4>Información generada</h4>
+      <p id="informacion"></p>
+    </fieldset>
+  </article>
+  <!-- <footer>
+    <h5>Alumno: Francisco Manuel Castillo Castillo</h5>
+    <h5>Asignatura: Desarrollo Web Entorno Cliente</h5>
+  </footer> -->
+</body>
+
+</html>

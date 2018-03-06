@@ -1,0 +1,30 @@
+body {
+  /* margin-left: 15%;
+  margin-right: 15%; */
+}
+
+header{
+  margin-left: 15%;
+}
+
+article {
+  /* margin-top: 50px; */
+  margin-left:15%;
+  margin-right:15%;
+}
+
+fieldset{
+  /* margin-left: 24%; */
+  /* width: 300px; */
+}
+
+footer {
+  margin-top: 5%;
+  padding-left: 15px;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:80px;
+  width: 100%;
+  background:grey;
+}
